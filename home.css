@@ -1,0 +1,265 @@
+body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+}
+
+* {
+        box-sizing: border-box
+}
+.mySlides {
+        display: none
+}
+
+.background {
+        background-image: url("wedding.jpg");
+        background-size: cover;
+        filter: blur(8px);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.foreground {
+        backdrop-filter: blur(10px);
+} 
+
+nav {
+        background-color: #f6f6f6;
+        height: 100px;
+        box-shadow: 2px 6px 9px black;
+        border-radius: 5px;
+}
+
+#active {
+        background-color: #e53077 ;
+        color: white;
+        text-shadow: black 2px 2px;
+}
+.logo {
+        max-width:100%;
+        height:100%;
+        margin:0;
+        margin-left: 10%;
+}
+
+.nav-items {
+        float:right;
+        height: 100%;
+        width: 65%;
+        font-size: x-large;
+}
+
+a {
+        /* flex: 30px;   */
+        float: left;
+        /* padding: 100px; */
+        width: 12.5%;
+        padding-top: 27px;
+        height: 73%;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+/* select {
+        font-size: x-large;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        background-color:  #f6f6f6;
+        text-align: center;
+        padding-left: 20px; 
+        border: none;
+        width: 100px;
+} */
+a:hover {
+        color: white;
+        background-color:#e53077 ;
+        transition: 500ms;
+        text-shadow: 2px 2px black;
+}
+
+.container {
+        height: 1700px;
+        margin: -0.2% 9% -0.2% 9%;
+        
+}
+.row2 {
+        width:90%;
+        height:40%;
+        float: left;
+        margin-bottom: 30px;
+        border: black 5px solid;
+        border-radius: 20px;
+        background-color: #e53077;
+        color: white;
+        text-shadow: black 2px 2px;
+}
+
+.col {
+        width:33.334%;
+        height:60%;
+        float: left;
+}
+.col2
+{
+   width:24.999%;
+        height:60%;
+        float: left;
+}
+
+.resImg {
+        width:100%;
+        height: 100%;
+}
+
+h1 {
+        font-weight: 700;
+        font-size: 550%;
+        float: left;
+        margin-left: 5%;
+}
+
+h2 {
+        font-size:xx-large;
+}
+
+.pack1 {
+        width:25%;
+        float: left;
+        margin-top: 0;
+}
+
+.deal {
+        width:25%;
+        /* float: left; */
+}
+
+.buy
+{
+  padding: 8px;
+  min-width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  margin-left: 25px;
+  color: white;
+  font-size: 20px;
+  background-color:black;
+}
+div.deal
+      {
+        margin: 25px 0;
+      }
+          div.button button.book
+      {
+                padding: 2px;
+                min-width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 22px;
+                cursor: pointer;
+                float: left;
+                margin-left: 15px;
+                margin-top:15px;
+                color: white;
+                font-size: 20px;
+                background-color: #000000;
+      }
+            div.button button.cancel
+            {
+                padding: 8px;
+                min-width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 22px;
+                cursor: pointer;
+                float: right;
+                margin-right: 15px;
+                margin-top:25px;
+                color: white;
+                font-size: 20px;
+                background-color: #000000;
+                visibility: hidden;
+            }
+           
+    
+            .row3 {
+        width:100%;
+        height:50%;
+        float: left;
+        margin-bottom: 30px;
+        border: gray 5px solid;
+        border-radius: 20px;
+        background-color: #e53077;
+        color: white;
+        text-shadow: black 2px 2px;
+              }
+p{
+  font-size: 120%
+}
+  div.button3
+      {
+        margin: 25px 0;
+      }
+          div.button3 button.book
+      {
+                padding: 2px;
+                min-width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 22px;
+                cursor: pointer;
+                float: left;
+                margin-left: 15px;
+                margin-top:-35px;
+                color: white;
+                font-size: 20px;
+                background-color: #000000;
+      }
+            div.button3 button.cancel
+            {
+                padding: 8px;
+                min-width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 22px;
+                cursor: pointer;
+                float: right;
+                margin-right: 15px;
+                margin-top:-35px;
+                color: white;
+                font-size: 20px;
+                background-color: #000000;
+                visibility: hidden;
+                position: relative;
+            }
+            .slide-show
+              {
+               margin-top: 10px;
+               margin-bottom:20px;
+               border: double gray 2px;
+               border-radius: 10px;
+               width: 800px;
+               height: 500px;
+               box-shadow: 0 2px 15px rgba(64,64,64,.7);
+              }
+
+       
+/* .cancel
+{
+ padding: 8px;
+ min-width: 100px;
+ height: 40px;
+ border: none;
+ border-radius: 22px;
+ cursor: pointer;
+ margin-right: 25px;
+ color: white;
+ font-size: 20px;
+ background-color: #d84848;
+ visibility: hidden;
+} */

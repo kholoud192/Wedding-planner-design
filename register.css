@@ -1,0 +1,123 @@
+body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+}
+
+.background {
+        background-image: url("wedding.jpg");
+        background-size: cover;
+        filter: blur(8px);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.foreground {
+        backdrop-filter: blur(10px);
+} 
+
+nav {
+        background-color: #f6f6f6;
+        height: 100px;
+        border-radius: 5px;
+        box-shadow: 2px 6px 9px black;
+}
+.logo {
+        max-width:100%;
+        height:100%;
+        margin:0;
+        margin-left: 10%;
+}
+
+.nav-items {
+        float:right;
+        height: 100%;
+        width: 50%;
+        font-size: x-large;
+}
+
+a {
+        /* flex: 30px;   */
+        float: left;
+        /* padding: 100px; */
+        width: 25%;
+        padding-top: 27px;
+        height: 73%;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+.category {
+        font-size: x-large;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        background-color:  #f6f6f6;
+        /* padding-left: 20px; */
+        border: none;
+        width: 100px;
+        position: relative;
+}
+.category:hover {
+        background-color:#e53077 ;
+}
+
+.register {
+        height: 650px;
+        width:30%;
+        background-color: #e53077;
+        padding:40px 20px;
+        border-radius: 20px;
+        margin:3% auto;
+        box-shadow: 2px 4px 6px black;
+}
+
+.input {
+        width: 100%;
+        padding: 12px 0px;
+        margin: 8px 0px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+}
+
+.subtn {
+        width: 60%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 0px;
+        margin: 20px 0;
+        border: none;
+        border-radius: 4px;
+}
+
+.labelf {
+        color:white;
+        float: left;
+}
+
+
+.headN {
+        color: white;
+}
+
+a:hover {
+        color: white;
+        background-color:#e53077 ;
+        transition: 500ms;
+        text-shadow: 2px 2px black;
+}
+
+.nums {
+        float: left;
+        width:48%;
+        display:inline;
+        margin:5px
+}
+.mainform input[type="button"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: #4CAF50;
+    box-shadow: 0 0 10px #4CAF50, 0 0 40px #4CAF50, 0 0 80px #4CAF50;
+}

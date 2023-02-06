@@ -1,0 +1,115 @@
+body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        height: 100%;
+}
+
+.background {
+        background-image: url("wedding.jpg");
+        background-size: cover;
+        filter: blur(8px);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.foreground {
+        backdrop-filter: blur(10px);
+} 
+
+nav {
+        background-color: #f6f6f6;
+        height: 100px;
+        border-radius: 5px;
+        box-shadow: 2px 6px 9px black;
+        margin-bottom: 0;
+}
+.logo {
+        max-width:100%;
+        height:100%;
+        margin:0;
+        margin-left: 10%;
+}
+
+.nav-items {
+        float:right;
+        height: 100%;
+        width: 50%;
+        font-size: x-large;
+}
+
+.navs {
+        /* flex: 30px;   */
+        float: left;
+        /* padding: 100px; */
+        width: 25%;
+        padding-top: 27px;
+        height: 73%;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+a.navs:hover {
+        color: white;
+        background-color:#e53077 ;
+        transition: 500ms;
+        text-shadow: 2px 2px black;
+}
+
+/* .category {
+        font-size: x-large;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        background-color:  #f6f6f6;
+        padding-left: 20px; 
+        border: none;
+        width: 100px;
+        position: relative;
+} */
+
+#active {
+        background-color: #e53077 ;
+        color: white;
+        text-shadow: black 2px 2px;
+}
+
+
+
+.container {
+        background-color:  #f6f6f6;
+        height: 550px;
+        margin: -0.2% 9%;
+        padding: 100px;
+        box-shadow: 6px 6px 6px black;
+}
+
+h1 {
+        font-weight: 700;
+        font-size: 550%;
+}
+
+.row1 {
+        text-align: left;
+}
+
+.row2 {
+        margin-left: 5%;
+}
+
+.col {
+        text-align: left;
+        display: inline;
+}
+
+h2 {
+        font-size: 30px;
+}
+
+.links {
+        text-decoration: none;
+        color: #e53077 ;
+}

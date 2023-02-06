@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Easy Wedding</title>
+                <link rel="stylesheet" href="easywedding.css">
+                <script src="login.js"></script>
+        </head>
+        <body>
+                <div>
+                        <div class="background"></div>
+                        <div class="foreground">
+                                <nav>
+                                        <img src="logo.jpg" alt="EasyWedding" class="logo">
+                                        <div class="nav-items" align="center">
+                                                
+                                                <a href="contact.html">Contact</a>
+                                                <a href="about.html">About</a>
+                                                
+                                        </div>
+                                </nav>
+                                <div class="login" align="center">
+                                        <p align="center" style="margin-top: 5%;font-size:350%;" class="labelf">Log<span class="in">in</span></p>
+                                        <form class="wholeform" onsubmit="return  logValidate()">
+                                                <div>
+                                                        <label class="labelf">E-mail :</label><br>
+                                                        <input type="email" placeholder="Your Email" class="input" id="email"><br>
+                                                </div>
+                                                <div>
+                                                        <label class="labelf">Password :</label><br>
+                                                        <input type="password" placeholder="Your Password" class="input" id="pw"><br>
+                                                </div>
+                                                
+                                                        <input type="submit" value="Login" class="subtn" id="btn"onclick="Admin()">
+                                                        <p class="labelf">if you don't have an account you can register from <a href="register.html">here</a></p>
+                                        </form>
+                                </div>
+                </div>
+                
+        </body>
+</html>

@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+nav {
+    background-color: #f6f6f6;
+    height: 100px;
+    box-shadow: 2px 6px 9px black;
+    border-radius: 5px;
+}
+.logo {
+    max-width:100%;
+    height:100%;
+    margin:0;
+    margin-left: 10%;
+}
+
+.navit {
+    float:right;
+    height: 100%;
+    width: 50%;
+    font-size: x-large;
+}
+
+a {
+    /* flex: 30px;   */
+    float: left;
+    /* padding: 100px; */
+    width: 25%;
+    padding-top: 27px;
+    height: 73%;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card{
+    margin:20;
+    left: 35px;
+    width: 500;
+    border: 1px solid black;
+       
+}
+.price{
+    color: red;
+}
+.marriot-container{
+    width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.marriot-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevBtn1{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn1{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+.conrad-container{
+       width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.conrad-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn2{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn2{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+.rotana-container{
+   width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.rotana-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn3{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn3{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+.intercontinental-container{
+ width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.intercontinental-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn4{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn4{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+.sheraton-container{
+   width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.sheraton-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn5{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn5{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+.club-container{
+  width: 100%;
+    height: 400;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.club-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevBtn6{
+position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+#nextBtn6{
+position: absolute;
+    top: 50%; 
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn{
+    background-color: green;
+}
